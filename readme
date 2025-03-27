@@ -1,7 +1,4 @@
 
-
-
-
 # 📊 Análise de Varejo (E-COMMERCE) com SQL Server + Power BI  
 
 ## 📌 Sobre o Projeto  
@@ -48,7 +45,15 @@ A estrutura do banco de dados deve permitir o armazenamento eficiente das inform
 
 ---
 
-## ❓ Perguntas que o Projeto Responde.  
+## 🚀 Tecnologias Utilizadas  
+
+- **SQL Server** → Utilizado para armazenar e processar os dados.  
+- **Power BI** → Criado para gerar visualizações interativas e dashboards estratégicos.  
+
+---
+
+
+## ❓ Perguntas que o Projeto responde através da utilização do Power BI.
 
 O modelo de dados e as análises do Power BI ajudam a responder questões como:  
 ✔ **Quem são os melhores clientes?**  
@@ -63,14 +68,6 @@ O modelo de dados e as análises do Power BI ajudam a responder questões como:
 ✔ ** Qual é o dia da semana com mais vendas?**
 ✔ ** Quais formas de pagamento são mais utilizadas?**
 ---
-
-## 🚀 Tecnologias Utilizadas  
-
-- **SQL Server** → Utilizado para armazenar e processar os dados.  
-- **Power BI** → Criado para gerar visualizações interativas e dashboards estratégicos.  
-
----
-
 ## 📁 Estrutura do Repositório  
 
 ```yaml
