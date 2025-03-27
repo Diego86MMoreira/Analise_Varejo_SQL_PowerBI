@@ -1,0 +1,180 @@
+
+
+Projeto de Análise de um varejista (E-COMMERCE) utilizando SQL Server + Power BI.
+
+_________________________________________________________________________________________________________
+
+Projeto Proposto no curso Business Intelligence com SQL Server na plataforma UDEMY.
+___________________________________________________________________________________________________________
+
+
+Objetivo do Projeto: 
+
+__________________________________________________________________________________________________________
+
+
+Descrição do Desafio
+_____________________________________________________________________________________________________________
+
+Desenvolver a modelagem relacional do negócio e a construção do banco de Dados em sua forma otimizada.
+
+
+-------------Requisitos 
+
+Necessita armazenar os seus dados de vendas.
+
+De forma geral, seguem os requisitos de cadastro abaixo. 
+
+01 – Cadastro de Produtos 
+
+02 – Cadastro de Fornecedores 
+
+03 – Cadastro de Categorias 
+
+04 – Cadastro de Notas Fiscais 
+
+05 - Cadastro de Endereço de Clientes 
+
+06 – Cadastro de Clientes 
+
+07 - Cadastro de Formas de Pagamentos 
+
+08 – Cadastro de vendedores (Os vendedores cuidam dos pedidos online, acompanhando os mesmos desde a origem até a entrega, otimizando e solucionando problemas.). 
+
+-----------Dos Campos 
+
+Todos os cadastros deverão ter números de identificação automáticos e aleatórios, de forma a deixar a cargo do sistema o controle de identificação de transações. 
+
+Particularidades
+
+01 – Nas vendas, uma nota fiscal pode conter um ou mais produtos, diferentes ou do mesmo tipo, contendo um subtotal de produtos do mesmo tipo e um total, com a soma de todos os produtos. 
+
+02 – Os funcionários possuem gerentes, que deverão ser armazenados no banco de dados. 
+
+---------------Regras de Negócio Essenciais 
+
+ 
+Um fornecedor pode fornece vários produtos. 
+
+Um cliente pode comprar várias vezes 
+
+Uma nota fiscal só pode ter uma forma de pagamento 
+
+Um vendedor pode emitir várias notas fiscais, mas uma nota só pode ser emitida por um vendedor. 
+
+Um cliente só pode ter um endereço 
+
+Um produto só pode pertencer a uma categoria. 
+
+Uma nota fiscal pode ter vários itens de nota. 
+
+
+------Perguntas a serem respondidas 
+
+Quem são os melhores clientes? 
+
+Quem são os melhores vendedores? 
+
+Qual categoria rende mais? 
+
+Qual a minha relação com os fornecedores? 
+
+Qual meu pior e melhor produto? 
+
+Em qual região eu vendo mais? 
+
+
+----------Tecnologias Utilizadas
+
+
+SQL Server: Um banco de dados SQL Server é utilizado criar e  armazenar os dados gerados pelos.Isso permite uma manipulação mais eficiente e um acesso organizado aos dados.
+
+Power BI: A ferramenta Power BI é usada para criar visualizações interativas e relatórios a partir dos dados armazenados no banco de dados SQL SERVER. O Power BI oferece recursos poderosos para análise e apresentação de dados.
+
+------------ Estrutura do Projeto
+
+Script Base de Dados: Contém os scripts em SQL gerados a partir do modelo lógico de acordo com os requisitos do projeto.
+Banco de Dados: Incluir scripts e arquivos relacionados ao banco de dados SQL Server, como esquemas e procedimentos armazenados.
+Dashboard: Está o arquivo do projeto Power BI(.pbix) que se conecta ao banco de dados SQl Server e cria as visualizações.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+# 📊 Análise de Varejo (E-COMMERCE) com SQL Server + Power BI  
+
+## 📌 Sobre o Projeto  
+
+Este projeto foi desenvolvido como parte do curso **Business Intelligence com SQL Server** na plataforma **Udemy**. O objetivo principal é modelar um banco de dados relacional otimizado para um varejista (E-commerce) e criar um dashboard interativo no Power BI.  
+
+## 🎯 Objetivo  
+
+O projeto busca:  
+- Criar um **banco de dados relacional otimizado** para armazenar informações de vendas.  
+- Desenvolver um **dashboard no Power BI** para análise de vendas, clientes e fornecedores.  
+- Responder perguntas estratégicas para a tomada de decisão no varejo.  
+
+---
+
+## 📂 Requisitos do Projeto  
+
+A estrutura do banco de dados deve permitir o armazenamento eficiente das informações de vendas, incluindo:  
+
+### **🔹 Cadastros Principais**  
+1. **Produtos**  
+2. **Fornecedores**  
+3. **Categorias**  
+4. **Notas Fiscais**  
+5. **Endereço de Clientes**  
+6. **Clientes**  
+7. **Formas de Pagamento**  
+8. **Vendedores** (responsáveis por acompanhar pedidos online, otimizar e solucionar problemas).  
+
+### **🔹 Regras de Negócio Essenciais**  
+- Um **fornecedor** pode fornecer vários produtos.  
+- Um **cliente** pode realizar várias compras.  
+- Uma **nota fiscal** contém um ou mais produtos.  
+- Cada **nota fiscal** pode ter apenas **uma forma de pagamento**.  
+- Um **vendedor** pode emitir várias notas fiscais, mas cada **nota fiscal é emitida por um único vendedor**.  
+- Um **cliente** pode ter apenas **um endereço cadastrado**.  
+- Um **produto** pertence a **uma única categoria**.  
+- Uma **nota fiscal** pode conter vários itens.  
+
+### **🔹 Particularidades das Vendas**  
+- Cada **nota fiscal** pode conter diferentes produtos, gerando subtotais e um total final da venda.  
+- Funcionários possuem **gerentes**, que devem ser armazenados no banco de dados.  
+- Todas as identificações no banco de dados devem ser geradas automaticamente.  
+
+---
+
+## ❓ Perguntas que o Projeto Responde  
+
+O modelo de dados e as análises do Power BI ajudam a responder questões como:  
+✔ **Quem são os melhores clientes?**  
+✔ **Quem são os melhores vendedores?**  
+✔ **Qual categoria gera mais receita?**  
+✔ **Qual minha relação com os fornecedores?**  
+✔ **Qual é o meu pior e melhor produto?**  
+✔ **Em quais regiões tenho mais vendas?**  
+✔ ** Quais produtos são frequentemente comprados juntos? -- Essa análise pode ajudar a criar estratégias de cross-sell (vendas combinadas)?**  
+✔ ** Qual é a melhor margem de lucro por produto?**  
+✔ ** Qual é a pior margem de lucro por produto?**  
+✔ ** Qual é o dia da semana com mais vendas?**
+✔ ** Quais formas de pagamento são mais utilizadas?**
+---
+
+## 🚀 Tecnologias Utilizadas  
+
+- **SQL Server** → Utilizado para armazenar e processar os dados.  
+- **Power BI** → Criado para gerar visualizações interativas e dashboards estratégicos.  
+
+---
+
+## 📁 Estrutura do Repositório  
+
+```yaml
+📂 dados/               # Contém arquivos CSV ou links para download dos dados.  
+📂 scripts/             # Scripts SQL para criação e manipulação do banco de dados.  
+📂 imagens/             # Prints de dashboards e visualizações do Power BI.  
+📂 dashboards/          # Arquivo do Power BI (.pbix) conectado ao SQL Server.  
+📄 README.md            # Documentação do projeto.  
