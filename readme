@@ -52,21 +52,32 @@ A estrutura do banco de dados deve permitir o armazenamento eficiente das inform
 
 ---
 
-
 ## ❓ Perguntas que o Projeto responde através da utilização do Power BI.
 
 O modelo de dados e as análises do Power BI ajudam a responder questões como:  
-✔ **Quem são os melhores clientes?**  
+
+##✔ **Quem são os melhores clientes?**  
+
 ✔ **Quem são os melhores vendedores?**  
-✔ **Qual categoria gera mais receita?**  
-✔ **Qual minha relação com os fornecedores?**  
-✔ **Qual é o meu pior e melhor produto?**  
-✔ **Em quais regiões tenho mais vendas?**  
+
+✔ **Qual categoria gera mais receita?**
+
+✔ **Qual minha relação com os fornecedores?**
+
+✔ **Qual é o meu pior e melhor produto?**
+
+✔ **Em quais regiões tenho mais vendas?**
+
 ✔ ** Quais produtos são frequentemente comprados juntos? -- Essa análise pode ajudar a criar estratégias de cross-sell (vendas combinadas)?**  
-✔ ** Qual é a melhor margem de lucro por produto?**  
-✔ ** Qual é a pior margem de lucro por produto?**  
+
+✔ ** Qual é a melhor margem de lucro por produto?**
+
+✔ ** Qual é a pior margem de lucro por produto?**
+
 ✔ ** Qual é o dia da semana com mais vendas?**
+
 ✔ ** Quais formas de pagamento são mais utilizadas?**
+
 ---
 ## 📁 Estrutura do Repositório  
 
